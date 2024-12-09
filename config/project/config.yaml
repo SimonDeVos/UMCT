@@ -1,0 +1,5 @@
+project_settings:
+  res_pred_file: 'results_predict.csv'
+  tracker: 'tracker.csv'
+  res_opt_file: 'results_optimize.csv'
+  config_path: 'config/data/config.yaml'

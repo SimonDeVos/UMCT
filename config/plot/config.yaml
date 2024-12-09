@@ -1,0 +1,12 @@
+#plot_settings:
+ntreatments: 100 # (for plotting purposes; not for optimization)
+plot_gt_scatter: true
+plot_est_scatter: true
+plot_vlines: true
+plot_gt_curve: true
+plot_est_curve: true
+plot_dose_density: false
+plot_decision_vars: false
+plot_residual_density: true
+save_fig: false
+

@@ -12,10 +12,10 @@ pip install -r requirements.txt
 Please use the above in a newly created virtual environment to avoid clashing dependencies.
 
 ## Instructions:
-- In ['main.ipynb'](https://github.com/SimonDeVos/turnover_prediction/blob/master/experiments/main.py):
+- In ['main.ipynb'](main/main_ihdp_s_1.ipynb):
   - Set the project directory to your custom folder. E.g., `DIR = r'C:\Users\...\...\...'`
   - Specify model in cell three. E.g.: `model_settings = {"model_type": SLearner, "model_name": "randomf"}`
-  - Set data, methods, optimization, plot, and project configurations in their corresponding ['.yaml files'](https://github.com/SimonDeVos/ICTE/tree/master/config)
+  - Set data, methods, optimization, plot, and project configurations in their corresponding ['.yaml files'](https://github.com/SimonDeVos/UMCT/tree/master/config)
 
 ## Repository Structure
 This repository is organized as follows:

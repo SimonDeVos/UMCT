@@ -2,6 +2,7 @@
 
 This paper introduces a predict-then-optimize framework for uplift modeling with continuous treatments, combining causal machine learning to estimate conditional average dose responses (CADRs) and integer linear programming to optimize dose allocation, enabling effective and adaptable decision-making across diverse applications while considering constraints like fairness and instance-dependent costs.
 
+A preprint is available on [ArXiv](https://arxiv.org/abs/2412.09232).
 
 
 ## Installing

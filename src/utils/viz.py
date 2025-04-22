@@ -885,7 +885,10 @@ def plot_dose_response(
 
     ax1.set_ylabel("$Y$")
     ax1.set_xlabel("$S$")
-    ax1.title.set_text(f"CADR: {name}")
+    ax1.title.set_text(f"CADR: S-Learner (rf)")
+ #   ax1.title.set_text(f"CADR: S-Learner (mlp)")
+ #   ax1.title.set_text(f"CADR: DRNet")
+ #   ax1.title.set_text(f"CADR: VCNet")
     ax1.legend()
     ax1.set_xlim(0, 1)
     ax1.set_ylim(0, 1)  # Setting y-axis limits to 0 and 1

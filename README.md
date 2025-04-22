@@ -15,7 +15,7 @@ Please use the above in a newly created virtual environment to avoid clashing de
 The code uses the Gurobi optimization software (version 11.0.1). Gurobi offers free [academic licenses](https://www.gurobi.com/academia/academic-program-and-licenses/).
 
 ## Instructions:
-- In [main.ipynb](main/main_ihdp_s_1.ipynb):
+- In [main.ipynb](main.ipynb):
   - Set the project directory to your custom folder. E.g., `DIR = r'C:\Users\...\...\...'`
   - Specify model in cell three. E.g.: `model_settings = {"model_type": SLearner, "model_name": "randomf"}`
   - Set data, methods, optimization, plot, and project configurations in their corresponding [.yaml files](https://github.com/SimonDeVos/UMCT/tree/master/config)
@@ -42,8 +42,7 @@ This repository is organized as follows:
     |- experiment 1/     
     |- experiment 2/
     |- experiment 3/
-|- main/
-    |- main_ihdp_s_1.ipynb  # Main notebook -- entry point for running experiments
+|- main.ipynb    # Main notebook -- entry point for running experiments
 |- src/
     |- data/
         |- utils/

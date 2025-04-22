@@ -1,5 +1,5 @@
 optimization_settings_list:
-  exact: ['exact','heuristic1'] # 'exact', heuristic1,'heuristic2'
+  exact: ['exact','heuristic1'] # 'exact', heuristic1
   cost_sensitive_optimization: [False] # True, False
   protected_attribute: [23]
   epsilon_disparate_treatment: [1]

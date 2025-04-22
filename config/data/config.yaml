@@ -7,7 +7,7 @@ ihdp_1:
   train_share: [0.7]
   val_share: [0.1]
   seed: [42]
-  alpha: [5.0]
+  alpha: [0.5]
   factor1: [1.0] #[1.0, 0.5, 1.5]
   factor2: [1.0] #[1.0, 1.5, 0.5]
   factor3: [0.0] # [0.0, 1.0, 5.0, 10.0] This is the influence of a protected feature on ground-truth ITE effect.

@@ -24,25 +24,20 @@ The code uses the Gurobi optimization software (version 11.0.1). Gurobi offers f
 This repository is organized as follows:
 ```bash
 |- config/
-    |- data/
-        |- config.yaml      # Dataset configurations
-    |- methods/
-        |- config.yaml      # method configurations
-    |- optimization/
-        |- config.yaml      # optimization configurations
-    |- plot/
-        |- config.yaml      # plot configurations
-    |- project/
-        |- config.yaml      # project configurations
+    |- data/config.yaml          # dataset configurations
+    |- methods/config.yaml       # method configurations
+    |- optimization/config.yaml  # optimization configurations
+    |- plot/config.yaml          # plot configurations
+    |- project/config.yaml       # project configurations
 |- data/
     |- ihdp_s_1/             
-        |- IHDP-S-1.csv     # IHDP dataset
-|- experimental results/    # Figures as displayed in the paper, organized per experiment
-    |- experiment 0/        # Figure of Appendix C
+        |- IHDP-S-1.csv          # IHDP dataset
+|- experimental results/         # figures as displayed in the paper, organized per experiment
+    |- experiment 0/             # figure of Appendix C
     |- experiment 1/     
     |- experiment 2/
     |- experiment 3/
-|- main.ipynb    # Main notebook -- entry point for running experiments
+|- main.ipynb                    # Main notebook -- entry point for running experiments
 |- src/
     |- data/
         |- utils/

@@ -10,7 +10,7 @@ We have provided a `requirements.txt` file:
 ```bash
 pip install -r requirements.txt
 ```
-Please use the above in a newly created virtual environment to avoid clashing dependencies.
+Please use the above in a newly created virtual environment to avoid clashing dependencies (can take some minutes).
 
 The code uses the Gurobi optimization software (version 11.0.1). Gurobi offers free [academic licenses](https://www.gurobi.com/academia/academic-program-and-licenses/).
 
